@@ -1,0 +1,12 @@
+^rootlength\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^doc$
+^Meta$
+^LICENSE\.md$
+^README\.html$
+^rootlength_converted_rowbyrow\.csv$
+^rootlength_outputs$
+^rootlength_outputs_RBpooled$
+^rootlength_outputs_ctrl0$
+^cran-comments\.md$

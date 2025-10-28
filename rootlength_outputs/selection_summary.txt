@@ -1,0 +1,30 @@
+rootlength — Selection Summary
+Mode: control
+User-defined control: RB
+Control pooled across doses: YES
+Primary root-length test: Dunnett vs control (HC3 robust)
+
+Diagnostics:
+• Levene (median-centered) p = 0.0000
+• Variance ratio (max var / min var>0) = 24.352
+• n-ratio (max n / min n>0) = 2.636
+• Heteroscedasticity detected: YES
+• Group-size imbalance detected: NO
+
+Files produced:
+ - /Users/ilgazcakin/Desktop/Rscript/rootlength/rootlength_outputs
+   - rootlength_results_vs_control.csv
+   - PRIMARY_rootlength_Dunnett_HC3.csv
+   - stats_rootlength_games_howell.csv
+   - stats_rootlength_dunnett.csv
+   - stats_rootlength_dunnett_robustHC3.csv
+   - plot_primary_raw.png
+   - plot_primary_gi.png
+   - plot_primary_length.png
+
+Notes:
+ - Length units were converted to centimeters internally (cm).
+ - Dose units are used for labeling only.
+ - Control is never inferred; only used if you set mode='control' and provide control_name.
+ - All stats tables include p_display and p.adj.signif (ns, *, **, ***).
+ - Cutoffs: 0.05 (*), 0.01 (**), 0.001 (***).
