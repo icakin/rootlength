@@ -6,6 +6,9 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/icakin/rootlength/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/icakin/rootlength/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/icakin/rootlength/actions)](https://github.com/icakin/rootlength/actions)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/rootlength)](https://CRAN.R-project.org/package=rootlength)
 <!-- badges: end -->
 
 The goal of rootlength is to …
