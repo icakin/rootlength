@@ -1,14 +1,25 @@
 Package: rootlength
-Title: What the Package Does (One Line, Title Case)
+Title: Root Length Analysis with Dunnett and Games–Howell
 Version: 0.1.0
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R:
+    person(given = "Ilgaz", family = "Cakin",
+           email = "ilgazcakin@gmail.com",
+           role = c("aut", "cre"))
+Description: Analyze seed/root-length experiments from a strict 5-column CSV
+    (treatment, concentration, dose unit, root length, length unit). Converts
+    length units to centimeters, builds treatment-by-dose groups, and runs
+    either Dunnett tests versus a user-defined control (with HC3-robust
+    fallback) or Welch ANOVA with Games–Howell all-pairs comparisons. Computes
+    relative germination, growth, and Germination Index (% change) versus the
+    chosen control, and writes tidy result tables and publication-quality
+    plots.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-Imports: 
+Depends:
+    R (>= 3.6)
+Imports:
     broom,
     car,
     dplyr,
@@ -20,7 +31,10 @@ Imports:
     stringr,
     tibble,
     tidyr
-Suggests: 
+Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+# Optional (uncomment once you host the repo):
+# URL: https://github.com/ilgazcakin/rootlength
+# BugReports: https://github.com/ilgazcakin/rootlength/issues
