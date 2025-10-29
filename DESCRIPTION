@@ -1,6 +1,6 @@
 Package: rootlength
 Title: Root Length Analysis with Dunnett and Games–Howell
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R:
     person(given = "Ilgaz", family = "Cakin",
            email = "ilgazcakin@gmail.com",
