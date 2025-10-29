@@ -3,6 +3,8 @@
 
 # rootlength
 
+**Last updated:** 2025-10-29 00:55 GMT
+
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/icakin/rootlength/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/icakin/rootlength/actions/workflows/R-CMD-check.yaml)
