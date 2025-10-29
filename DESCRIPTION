@@ -35,6 +35,8 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-# Optional (uncomment once you host the repo):
+# Optional (uncomment once you host the repo): 
 # URL: https://github.com/ilgazcakin/rootlength
 # BugReports: https://github.com/ilgazcakin/rootlength/issues
+URL: https://github.com/icakin/rootlength
+BugReports: https://github.com/icakin/rootlength/issues
