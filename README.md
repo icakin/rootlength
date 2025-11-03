@@ -46,8 +46,23 @@ library(rootlength)
 
 ## Input format
 
-`run_pipeline()` expects a CSV file with **columns**, not a special file
-format.
+`run_pipeline()` reads a **simple CSV file**.  
+Each **row = one seed** (or experimental replicate).
+
+> ✅ If a seed did **not germinate**, **do NOT delete the row**.  
+> Encode it by setting `root_length = 0` **or leaving it blank**.  
+> The script counts it as **non-germination**.
+
+### Required columns
+
+| Column        | Meaning | Notes |
+|--------------|--------|------|
+| `treatment`   | Group name (e.g. `"Control"`, `"RB"`) | Always required |
+| `root_length` | Root length for each seed | `> 0` = germinated; `0` or blank = **no germination** |
+| `length_unit` | Unit of length | Must be provided even for 0/blank roots |
+
+**Accepted length units**  
+
 
 ### Required columns
 
